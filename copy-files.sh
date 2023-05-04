@@ -2,7 +2,7 @@
 
 # Переменная с именем файла для копирования
 FILE=example.txt
-REMOTE_PATH=/path/to/dir
+REMOTE_PATH=/tmp
 
 # Цикл для копирования файла на каждый удаленный хост
 for host in $(cat ~/hosts.txt); do
