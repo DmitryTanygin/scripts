@@ -2,8 +2,8 @@
 
 # Установка значений переменных
 MONGODB_URI="mongodb://localhost:27017/db"            # URI базы данных MongoDB
-DB_NAME="openschool"                                           # Название базы данных
-COLLECTION_NAME="lessons"                                 # Название коллекции
+DB_NAME="db"                                           # Название базы данных
+COLLECTION_NAME="collection_name"                                 # Название коллекции
 ID_ARRAY=("ObjectId(\"id\")" "ObjectId(\"id\")")     # Массив ObjectId поисковых запросов
 
 # Формирование массива фильтров
